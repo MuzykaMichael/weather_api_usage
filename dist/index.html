@@ -11,13 +11,17 @@
     <form class="forma">
       <label>
         Type city to earn weather
-        <input class="inputText" type="text">
+        <input class="inputText" type="text" required="">
+      </label>
+      <label>
+        Type forecast length in days(max length 14)
+        <input class="inputDays" type="number" min="1" max="14">
       </label>
       <button type="submit">Submit</button>
 
     </form>
-    <div>
-      <p class="info-column">Weather for today in</p>
+    <div class="info-column">
+
     </div>
     <!-- ❗️❗️❗️ Add partials like so for every page -->
     <script src="/index.975ef6c8.js" defer=""></script>
